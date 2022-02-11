@@ -25,10 +25,10 @@ export class Contact2Component implements OnInit {
 
   ngOnInit() {
     this.myReactiveForm = new FormGroup({
-      'user name':new FormControl('null'),
+      'user name':new FormControl('hello'),
       'email': new FormControl('null'),
       'course':new FormControl('null'),
-      'gender':new FormControl('null')
+      'gender':new FormControl('Female')
 
     });
   }
